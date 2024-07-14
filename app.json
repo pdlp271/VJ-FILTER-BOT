@@ -15,27 +15,27 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/pdlp271/VJ-FILTER-BOT",
-    "repository": "https://github.com/pdlp271/VJ-FILTER-BOT",
+    "website": "https://github.com/VJBots/VJ-FILTER-BOT",
+    "repository": "https://github.com/VJBots/VJ-FILTER-BOT",
     "env": {
         "BOT_TOKEN": {
-            "description": "",
+            "description": "Your bot token.",
             "required": true
         },
         "API_ID": {
-            "description": "20421609",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "17187c5466fb7044793bfa8bcaa9ec68",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "CHANNELS": {
-            "description": "-1001840476165",
+            "description": "ID of file channel. Separate multiple IDs by space.",
             "required": true
         },
         "ADMINS": {
-            "description": "1511468725",
+            "description": "ID of Admin. Separate multiple Admins id by space.",
             "required": true
         },
         "PICS": {
@@ -43,7 +43,7 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "-1001965914571",
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
         },
         "AUTH_USERS": {
@@ -55,11 +55,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Hanuman",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": false
         },
         "COLLECTION_NAME": {
